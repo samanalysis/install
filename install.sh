@@ -23,7 +23,7 @@ fi
 UNAME_MACHINE="$(uname -m)"
 
 # Required installation paths. To install elsewhere (which is unsupported)
-# you can untar https://github.com/Homebrew/brew/tarball/master
+# you can untar https://github.com/samanalysis/brew/tarball/master
 # anywhere you like.
 if [[ -z "${HOMEBREW_ON_LINUX-}" ]]; then
   if [[ "$UNAME_MACHINE" == "arm64" ]]; then
